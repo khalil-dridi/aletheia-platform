@@ -16,13 +16,7 @@ frontend/.cache/
 frontend/.vscode/
 frontend/.idea/
 
-###################################
-# ===== BACKEND SPRING BOOT =====
-###################################
-user-service/target/
-user-service/.mvn/wrapper/maven-wrapper.jar
-user-service/.idea/
-user-service/*.log
+
 
 ###################################
 # ===== SECRET FILES =====
