@@ -1,0 +1,39 @@
+###################################
+# ===== GENERAL =====
+###################################
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+###################################
+# ===== FRONTEND ANGULAR =====
+###################################
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.cache/
+frontend/.vscode/
+frontend/.idea/
+
+###################################
+# ===== BACKEND SPRING BOOT =====
+###################################
+user-service/target/
+user-service/.mvn/wrapper/maven-wrapper.jar
+user-service/.idea/
+user-service/*.log
+
+###################################
+# ===== SECRET FILES =====
+###################################
+application-secret.properties
+.env
+.env.local
+*.key
+*.pem
+
+###################################
+# ===== OS =====
+###################################
+Thumbs.db
