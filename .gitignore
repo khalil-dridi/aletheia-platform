@@ -5,6 +5,7 @@
 *.tmp
 *.swp
 .DS_Store
+Thumbs.db
 
 ###################################
 # ===== FRONTEND ANGULAR =====
@@ -16,18 +17,25 @@ frontend/.cache/
 frontend/.vscode/
 frontend/.idea/
 
-
+###################################
+# ===== BACKEND SPRING BOOT =====
+###################################
+user-service/target/
+user-service/.idea/
+user-service/uploads/
 
 ###################################
-# ===== SECRET FILES =====
+# ===== SECRETS =====
 ###################################
-application-secret.properties
 .env
-.env.local
+application-local.properties
+application-prod.properties
 *.key
 *.pem
 
 ###################################
-# ===== OS =====
+# ===== IDE =====
 ###################################
-Thumbs.db
+.idea/
+*.iml
+.vscode/
